@@ -1,0 +1,77 @@
+body{
+    margin: auto;
+    width: 100%
+
+}
+
+.encabezado{
+    position:fixed;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    background-color: black;
+
+}
+.texto1 {
+    background-image: url("https://geekculture.co/wp-content/uploads/2021/09/marvel-legends-what-if-hasbro.jpg") ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size:cover;    
+    height: 25em;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+}
+.contenidotexto1 {
+    margin-left: 50px;
+    margin-top: 60px;
+    position: absolute;
+}
+
+.contenidotexto1 h1 {
+    font-size: 70px;
+    color:#fff;
+    margin-bottom: 5px;
+  
+}
+
+.contenidotexto1 p {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.boton1 {
+    border: none;
+    background-color: rgb(255, 102, 0);
+    color: white;
+    border-radius: 0;
+    font-size: 18px;
+    width: 200px;
+    height: 40px ;
+    min-width: 150px;
+    margin-right: 50px;
+}
+
+.boton1:hover{
+    cursor: pointer;
+}
+.boton2:hover{
+    cursor: pointer;
+}
+.boton2 {
+    border: none;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: 18px;
+    width: 200px;
+    height: 40px ;
+    min-width: 150px;
+}
+
+
+   
+
+
